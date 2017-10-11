@@ -1,2 +1,3 @@
+before_script: cd TP_crypto
 language: c
 script: make

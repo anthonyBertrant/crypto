@@ -6,3 +6,5 @@ language: c
 
 compiler:
    - gcc
+
+build: make

@@ -1,7 +1,6 @@
 all: compiler
 compiler:
-    gcc -o aes aes.c -I
-
+gcc aes.c -o aes -lm
 clean:
-	rm aes
+rm aes
 

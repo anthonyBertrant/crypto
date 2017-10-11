@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6F2861F1F8E1FDA00F06B6E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A6F2861E1F8E1FDA00F06B6E /* main.c */; };
+		A6F286281F8E1FF100F06B6E /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = A6F286251F8E1FF100F06B6E /* aes.c */; };
+		A6F286291F8E1FF100F06B6E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = A6F286271F8E1FF100F06B6E /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		A6F2861B1F8E1FDA00F06B6E /* TP_Crypto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP_Crypto; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6F2861E1F8E1FDA00F06B6E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A6F286251F8E1FF100F06B6E /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		A6F286261F8E1FF100F06B6E /* aes */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = aes; sourceTree = "<group>"; };
+		A6F286271F8E1FF100F06B6E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		A6F2861D1F8E1FDA00F06B6E /* TP_Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				A6F2861E1F8E1FDA00F06B6E /* main.c */,
+				A6F286251F8E1FF100F06B6E /* aes.c */,
+				A6F286261F8E1FF100F06B6E /* aes */,
+				A6F286271F8E1FF100F06B6E /* Makefile */,
 			);
 			path = TP_Crypto;
 			sourceTree = "<group>";
@@ -120,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F2861F1F8E1FDA00F06B6E /* main.c in Sources */,
+				A6F286291F8E1FF100F06B6E /* Makefile in Sources */,
+				A6F286281F8E1FF100F06B6E /* aes.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,3 +1,0 @@
-before_install: cd TP_Crypto
-language: c
-script: make

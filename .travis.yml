@@ -1,10 +1,2 @@
-sudo: required
-
 language: c
- os:
-   - linux
-
-compiler:
-   - gcc
-
-build: make
+script: make

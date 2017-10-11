@@ -1,6 +1,6 @@
 all: compiler
-compiler: 
-	gcc aes.c -o aes -lm 
-clean: 
+compiler:
+    gcc -o aes aes.c -I
+clean:
 	rm aes
 
